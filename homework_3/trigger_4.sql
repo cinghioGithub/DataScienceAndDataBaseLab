@@ -10,7 +10,7 @@ begin
      
     if TotMax < 30 then
       
-      raise_application_error(-1, 'Too few MaxCalls');
+      raise_application_error(-20000, 'Too few MaxCalls');
       
     end if;
 
